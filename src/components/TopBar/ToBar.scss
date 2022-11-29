@@ -1,0 +1,13 @@
+.topBar {
+    width: 100%;
+    box-shadow: $box-shadow-2;
+
+    .date {
+        box-shadow: $box-shadow-1;
+        border-radius: $border-rd-3;
+        -webkit-border-radius: $border-rd-3;
+        -moz-border-radius: $border-rd-3;
+        -ms-border-radius: $border-rd-3;
+        -o-border-radius: $border-rd-3;
+    }
+}
