@@ -1,0 +1,39 @@
+@import '../../styles';
+.icon {
+    background-color: $main-color;
+    padding: 5px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    .card-icon {
+        font-size: 40px;
+        color: $white-color;
+        // width: 20%;
+    }
+
+ }
+
+ 
+
+.left {
+        .trend {
+            background-color: $white-color;
+            gap: 1rem;
+           .icon-2 .trend-icon {
+                color: red;
+             }
+        }
+
+        .desc p {
+            color: $gray-color;
+        }
+
+        .amount {
+            margin-bottom: 15px;
+        }
+  
+}

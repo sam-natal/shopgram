@@ -1,36 +1,4 @@
-/* VARIABLES */
-$bg-1-color: #fff;
-$main-color: #381B5D;
-$bg-2-color:#FBF9F9;
-$green-color: #1ED709;
-$border-color: #0000;
-$orange-color: #D75B09;
-$red-color: #D70909;
-$secondary-color: #5E0ACC;
-$black-color: #1c1c1c;
-
-$sm-opacity: 0.3;
-$md-opacity: 0.5;
-$lg-opacity: 1;
-
-$sm-font-size: 16px;
-$md-font-size: 20px;
-$lg-font-size: 25px;
-
-$light-fw: light;
-$regular-fw: 100;
-$bold-fw: 700;
-$semi-bold-fw: 500;
-
-$border-rd-3: 3px;
-$border-rd-6: 6px;
-$border-rd-10: 10px;
-$border-rd-20: 20px;
-
-
-$box-shadow-1: 0 1px 6px #000;
-$box-shadow-2: 0 2px 6px #000;
-$box-shadow-3: 0 3px 6px #000;
+@import './styles';
 
 // CONFIGURATIONS
 *{
@@ -62,4 +30,23 @@ ul {
 .card {
     justify-content: left;
     align-items: flex-start;
+    width: 100%;
+  
 }
+
+.container-card {
+    box-shadow: $box-shadow-1;
+    position: relative;
+    width: 30%;
+    padding: 10px;
+
+    border-radius: $border-rd-6;
+    -webkit-border-radius: $border-rd-6;
+    -moz-border-radius: $border-rd-6;
+    -ms-border-radius: $border-rd-6;
+    -o-border-radius: $border-rd-6;
+ }
+
+ .left-aligned-gap-1 {
+    gap: 1rem;
+ }
