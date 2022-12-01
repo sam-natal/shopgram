@@ -9,6 +9,9 @@ $red-color: #D70909;
 $secondary-color: #5E0ACC;
 $black-color: #1c1c1c;
 
+$white-color: rgba(255, 255, 255, 0.8);
+$gray-color: rgba(160, 160, 160, 0.909);
+
 $sm-opacity: 0.3;
 $md-opacity: 0.5;
 $lg-opacity: 1;
@@ -32,8 +35,6 @@ $box-shadow-1: 0 1px 6px rgba(0, 0, 0, 0.199);
 $box-shadow-2: 0 2px 6px rgba(0, 0, 0, 0.201);
 $box-shadow-3: 0 3px 6px rgba(0, 0, 0, 0.199);
 
-$white-color: rgba(255, 255, 255, 0.8);
-$gray-color: rgba(160, 160, 160, 0.909);
 
 h1 {
     font-size: $lg-font-size;

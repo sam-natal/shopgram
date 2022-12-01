@@ -1,0 +1,11 @@
+@import '../../styles';
+
+.dashboard-section {
+    background-color: $gray-color;
+    width: 80%;
+    gap: 2rem;
+
+    .top-card-container {
+        background-color: white;
+    }
+}
