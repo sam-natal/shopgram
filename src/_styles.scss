@@ -7,18 +7,19 @@ $border-color: #0000;
 $orange-color: #D75B09;
 $red-color: #D70909;
 $secondary-color: #5E0ACC;
-$black-color: #1c1c1c;
+$black-color: #333;
 
 $white-color: rgba(255, 255, 255, 0.8);
-$gray-color: rgba(160, 160, 160, 0.909);
+$gray-color: rgba(204, 203, 203, 0.909);
 
 $sm-opacity: 0.3;
 $md-opacity: 0.5;
 $lg-opacity: 1;
 
-$sm-font-size: 16px;
-$md-font-size: 20px;
-$lg-font-size: 25px;
+$sm-font-size: 1rem;
+$regular-font-sz:1.125rem;
+$md-font-size: 1.25rem;
+$lg-font-size: 1.563rem;
 
 $light-fw: light;
 $regular-fw: 100;
@@ -39,6 +40,11 @@ $box-shadow-3: 0 3px 6px rgba(0, 0, 0, 0.199);
 h1 {
     font-size: $lg-font-size;
     font-weight: $semi-bold-fw;
+}
+
+h4 {
+   font-size: $md-font-size;
+   font-weight: $regular-fw; 
 }
 
 p{

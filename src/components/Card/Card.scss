@@ -1,6 +1,5 @@
 @import '../../styles';
 .icon {
-    background-color: $main-color;
     padding: 5px;
 
     border-radius: 50%;
@@ -11,9 +10,11 @@
 
     .card-icon {
         font-size: 40px;
-        color: $white-color;
+        color: $black-color;
+        
         // width: 20%;
     }
+
 
  }
 
@@ -22,9 +23,13 @@
 .left {
         .trend {
             background-color: $white-color;
-            gap: 1rem;
-           .icon-2 .trend-icon {
+            gap: .02rem;
+        
+             .icon-2.decreased .icon-trend {
                 color: red;
+             }
+             .icon-2.increased .icon-trend {
+                color: green;
              }
         }
 
@@ -32,6 +37,13 @@
             color: $gray-color;
         }
 
+        .desc .increased span {
+            color: green;
+        }
+
+        .desc .decreased span {
+            color: red;
+        }
         .amount {
             margin-bottom: 15px;
         }

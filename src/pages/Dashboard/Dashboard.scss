@@ -2,10 +2,89 @@
 
 .dashboard-section {
     background-color: $gray-color;
-    width: 80%;
+    width: 80% !important;
     gap: 2rem;
 
-    .top-card-container {
+    .top-cards-container {
         background-color: white;
     }
+
+    .table-cards-bottom {
+        width: 100%;
+        background-color: white;
+        justify-content: space-between;
+
+      .cards {
+        width: 33%;
+
+        .container-card {
+            width: 100%;
+        }
+
+        .pv-cards {
+            margin-top: 10px;
+            box-shadow: $box-shadow-1;
+
+            .container-card{
+                box-shadow: none;
+            }
+
+            .container-card .right {
+              display: none;
+            }
+
+            .container-card .icon {
+                display: none;
+            }
+            border-radius: $border-rd-6;
+            -webkit-border-radius: $border-rd-6;
+            -moz-border-radius: $border-rd-6;
+            -ms-border-radius: $border-rd-6;
+            -o-border-radius: $border-rd-6;
+}
+      }  
+    }
+
+    .table {
+        width: 63%;
+   
+
+        th {
+            color: $white-color;
+        }
+        .header {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .search-container {
+            position: relative;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: $border-rd-6;
+            -webkit-border-radius: $border-rd-6;
+            -moz-border-radius: $border-rd-6;
+            -ms-border-radius: $border-rd-6;
+            -o-border-radius: $border-rd-6;
+    
+          
+            align-items: center;
+            justify-content: right;
+            width: 30%;
+            background-color: $gray-color;
+    
+            .search-icon {
+                font-size: 20px;
+            }
+    
+            input {
+                width: 90%;
+                font-size: $sm-font-size;
+                background-color: transparent;
+            }
+       }
+    }
+
+   
 }
