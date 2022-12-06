@@ -111,14 +111,14 @@ const Dashboard = () => {
         <div style={{ height: 400, width: '100%', color: 'rgba(255, 255, 255, 0.8)' }}>
      
         
-     <DataGrid
-       rows={rows}
-       columns={columns}
-       pageSize={5}
-       rowsPerPageOptions={[5]}
-      
-     />
-   </div>
+          <DataGrid
+            rows={rows}
+            columns={columns}
+            pageSize={5}
+            rowsPerPageOptions={[5]}
+            
+          />
+        </div>
       </div>
 
       <div className="cards">

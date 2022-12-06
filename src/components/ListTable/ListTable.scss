@@ -1,0 +1,85 @@
+@import '../../styles';
+.list-tbl{
+    width: 42%;
+    box-shadow: $box-shadow-1;
+    border-radius: $border-rd-3;
+    -webkit-border-radius: $border-rd-3;
+    -moz-border-radius: $border-rd-3;
+    -ms-border-radius: $border-rd-3;
+    -o-border-radius: $border-rd-3;
+
+    .header {
+        padding: 8px 16px;
+        width: 100%;
+        justify-content: space-between;
+        
+
+        h3 {
+            justify-content: left;
+            align-items: center;
+        }
+
+        .search-container {
+            justify-content: right;
+            padding: 10px;
+            border-radius: $border-rd-6;
+            -webkit-border-radius: $border-rd-6;
+            -moz-border-radius: $border-rd-6;
+            -ms-border-radius: $border-rd-6;
+            -o-border-radius: $border-rd-6;
+    
+          
+            align-items: center;
+            justify-content: right;
+            width: 30%;
+            background-color: $gray-color;
+    
+            .search-icon {
+                font-size: 20px;
+            }
+    
+            input {
+                width: 90%;
+                font-size: $sm-font-size;
+                background-color: transparent;
+            }
+        }
+    }
+
+    .cell-wth-img {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .cell-img {
+        width: 36px;
+        height: 36px;
+        margin-right: 16px;
+
+        object-fit: cover;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .actns-cell {
+        display: flex;
+        align-items: center;
+
+        .actns-icon {
+            width: 16px;
+            object-fit: contain;
+            cursor: pointer;
+        }
+    }
+
+    .view-lnk,.dlt-lnk {
+        display: block;
+        cursor: pointer;
+        margin-bottom: 16px;
+    }
+
+}

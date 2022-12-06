@@ -54,3 +54,23 @@ ul {
  .just-content-space-btwn {
    justify-content: space-between;
  }
+
+ .pop-over-wrapper {
+    width: 60%;
+    padding: 16px 36px;
+    position: relative;
+
+    overflow: hidden;
+    background-color: $white-color;
+ }
+
+ .po-container {
+   width: 80%;
+   box-shadow: $box-shadow-2;
+
+   border-radius: $border-rd-6;
+   -webkit-border-radius: $border-rd-6;
+   -moz-border-radius: $border-rd-6;
+   -ms-border-radius: $border-rd-6;
+   -o-border-radius: $border-rd-6;
+}
